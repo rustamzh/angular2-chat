@@ -5,7 +5,7 @@ import * as io from 'socket.io-client'
 
 @Injectable()
 export class SocketserviceService implements OnInit {
-  private url = 'http://localhost:5000';
+  private url = 'https://calm-mesa-45289.herokuapp.com:80';
   private socket;
 
   constructor() {
